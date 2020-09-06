@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('SimpleBuild') {
       steps {
-        sh './builds/build.sh'
+        sh 'sh \'mvn build\''
       }
     }
 
